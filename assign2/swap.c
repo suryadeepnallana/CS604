@@ -2,9 +2,12 @@
 
 int main(void) {
     int a, b;
+    int temp;
     printf("please enter 2 numbers to be swapped\n");
     scanf("%d%d", &a, &b);
-
+    temp = a;
+    a = b;
+    b = temp;
     printf("before:a=%d, b=%d\n",a,b);
 
     //TODO: swap the value of a and b
