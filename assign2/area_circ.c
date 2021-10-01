@@ -7,8 +7,8 @@ int main()
     float a,c;
     printf("enter radius :\n");
     scanf("%f", &r);
-    a=pi*pow(r,2);
-    c=2*pi*r;
+    a=3.14*pow(r,2);
+    c=2*3.14*r;
     //r stores radius 
     //TODO: 1. declare a variable a to hold area and a variable c to hold circumference
     //TODO  2. calculate and store area into a and circumference into c (you can assume pi = 3.14)
